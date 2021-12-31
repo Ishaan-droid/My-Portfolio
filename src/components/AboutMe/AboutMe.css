@@ -1,0 +1,105 @@
+.about-me-div {
+  background-color: #2b2b2b;
+}
+
+.profile-photo {
+  height: 80vh;
+}
+
+.profile-photo h4 {
+  display: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.profile-photo img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 80% 0;
+}
+
+.intro-details div {
+  padding-right: 3rem;
+}
+
+.about,
+.contact-me {
+  color: #fff;
+  font-weight: 500;
+}
+
+.intro-details p {
+  color: #7a7a7a;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.intro-details a {
+  color: #f06000;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.contact-icons {
+  font-size: 1.2rem;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .profile-photo {
+    height: 70vh;
+  }
+  .profile-photo h4 {
+    display: inline-block;
+  }
+  .profile-photo img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .intro-details div {
+    padding: 0 12px;
+  }
+  .about {
+    display: none;
+  }
+  .contact-icons {
+    font-size: 1.2rem;
+  }
+  .intro-details a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 765px) and (min-width: 551px) {
+  .profile-photo h4 {
+    display: inline-block;
+  }
+  .profile-photo img {
+    height: 18rem;
+    width: 18rem;
+  }
+  .intro-details div {
+    padding: 0 12px;
+  }
+  .about {
+    display: none;
+  }
+  .contact-icons {
+    font-size: 1.2rem;
+  }
+  .intro-details a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 850px) {
+  .intro-details a {
+    font-size: 0.8rem;
+  }
+  .profile-photo img {
+    height: 22rem;
+    width: 22rem;
+  }
+}
