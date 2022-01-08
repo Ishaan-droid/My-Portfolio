@@ -11,7 +11,7 @@ const Experience = () => {
           <div className="companies">
             <Row className="g-0">
               {experienceDetails.map(cur => (
-                <Col lg={4} md={4} sm={12} className="d-flex justify-content-center" key={cur.id}>
+                <Col lg={6} md={6} sm={12} className="d-flex justify-content-center" key={cur.id}>
                   <div className="flip-card">
                     <div className="flip-card-inner">
                       <div className="flip-card-front">

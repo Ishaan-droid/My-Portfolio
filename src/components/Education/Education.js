@@ -37,9 +37,9 @@ const Education = () => {
                       <li>
                         <h6>{cur.duration}</h6>
                       </li>
-                      <li>
+                      {/* <li>
                         <h6>{cur.id === 0 ? cur.CGPA : 'In Progress'}</h6>
-                      </li>
+                      </li> */}
                     </ul>
                     <OverlayTrigger
                       trigger={['hover', 'focus']}

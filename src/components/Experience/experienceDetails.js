@@ -1,9 +1,10 @@
 import hcl from '../../images/hcll.png';
 import TechMahindra from '../../images/TechMahindra.png';
-import guardian from '../../images/guardian.png';
+// import guardian from '../../images/guardian.png';
 import { AiOutlineDatabase, AiOutlineConsoleSql } from 'react-icons/ai';
 import { SiJirasoftware } from 'react-icons/si';
-import { DiReact, DiJavascript1 } from 'react-icons/di';
+import { DiJavascript1 } from 'react-icons/di';
+// import { DiReact, DiJavascript1 } from 'react-icons/di';
 
 const experienceDetails = [
   {
@@ -43,23 +44,23 @@ const experienceDetails = [
       'Did agile development, 10 points an iteration and have a habit of working under tight deadlines',
     ],
   },
-  {
-    id: 2,
-    company: 'Guardian Life Insurance',
-    image: guardian,
-    alt: 'Ishaan_Guardian',
-    position: 'Senior Engineer',
-    position_icon: SiJirasoftware,
-    technologies: 'Javascript, React, Node JS, Express JS, SQL, Bootstrap',
-    tech_icon: DiReact,
-    duration: '2021,March - 2021,Aug',
-    work: [
-      'Same responsibilities like before in tighter deadlines.',
-      'Making API calls and managing data efficiently with with Redux thunk, context API and variety of array methods',
-      'Created Rest API with Node JS, Mongo DB and even performed user authentication and authorisation',
-      'Made pages responsive with bootstrap and its utility classes',
-    ],
-  },
+  // {
+  //   id: 2,
+  //   company: 'Guardian Life Insurance',
+  //   image: guardian,
+  //   alt: 'Ishaan_Guardian',
+  //   position: 'Senior Engineer',
+  //   position_icon: SiJirasoftware,
+  //   technologies: 'Javascript, React, Node JS, Express JS, SQL, Bootstrap',
+  //   tech_icon: DiReact,
+  //   duration: '2021,March - 2021,Aug',
+  //   work: [
+  //     'Same responsibilities like before in tighter deadlines.',
+  //     'Making API calls and managing data efficiently with with Redux thunk, context API and variety of array methods',
+  //     'Created Rest API with Node JS, Mongo DB and even performed user authentication and authorisation',
+  //     'Made pages responsive with bootstrap and its utility classes',
+  //   ],
+  // },
 ];
 
 export default experienceDetails;

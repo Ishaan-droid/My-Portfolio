@@ -9,8 +9,15 @@ import { AiFillDownCircle } from 'react-icons/ai';
 const Header = () => {
   const gotoSocialSite = link => window.location.assign(link);
 
-  const goToAboutMe = () =>
-    document.querySelector('#aboutMe').scrollIntoView({ behavior: 'smooth' });
+  const goToAboutMe = () => {
+    const aboutMeCoords = document.querySelector('#aboutMe').getBoundingClientRect();
+    const { top } = aboutMeCoords;
+    window.scrollTo({
+      top: window.scrollY + top,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <section>
