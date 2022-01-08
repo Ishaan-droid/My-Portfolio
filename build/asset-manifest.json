@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.541773dc.css",
-    "main.js": "/static/js/main.51efa947.js",
+    "main.js": "/static/js/main.e3535b74.js",
     "static/media/header.jpg": "/static/media/header.dd5eb08b2aae239b5454.jpg",
     "static/media/profilePhoto.JPG": "/static/media/profilePhoto.2fcbfaaccde265eba7a4.JPG",
     "static/media/clientTracker.png": "/static/media/clientTracker.8b5c3a90d0819b56d1c7.png",
@@ -9,10 +9,10 @@
     "static/media/greenKiwiDiets.png": "/static/media/greenKiwiDiets.372c362e576d327f6722.png",
     "index.html": "/index.html",
     "main.541773dc.css.map": "/static/css/main.541773dc.css.map",
-    "main.51efa947.js.map": "/static/js/main.51efa947.js.map"
+    "main.e3535b74.js.map": "/static/js/main.e3535b74.js.map"
   },
   "entrypoints": [
     "static/css/main.541773dc.css",
-    "static/js/main.51efa947.js"
+    "static/js/main.e3535b74.js"
   ]
 }
