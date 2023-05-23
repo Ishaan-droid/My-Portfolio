@@ -19,19 +19,19 @@ const Experience = () => {
                         <h6 className="mt-4 ps-4">
                           {<cur.position_icon />} {cur.position}
                         </h6>
-                        <hr />
+                        {/* <hr />
                         <h6 className=" mb-5 ps-4">
                           {' '}
                           {<cur.tech_icon />} {cur.technologies}
-                        </h6>
+                        </h6> */}
                       </div>
-                      <div className="flip-card-back p-5">
+                      {/* <div className="flip-card-back p-5">
                         <ul>
                           {cur.work.map((item, idx) => (
                             <li key={idx}>{item}</li>
                           ))}
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Col>
